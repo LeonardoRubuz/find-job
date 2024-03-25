@@ -2,6 +2,7 @@
   "expo": {
     "name": "find-job",
     "slug": "find-job",
+    "scheme" : "find-job",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -37,6 +38,9 @@
     },
     "updates": {
       "url": "https://u.expo.dev/b7624587-2151-4b2f-a6a8-7b4a5330bc31"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
