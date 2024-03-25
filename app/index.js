@@ -23,7 +23,7 @@ function Home() {
                     headerTitle : ''
                 }}
             />
-            <ScrollView showsVerticalScrollIndicator= {false}>
+            <View showsVerticalScrollIndicator={false} nestedScrollEnabled={true}>
                 <View
                     style={{
                         flex : 1,
@@ -33,7 +33,7 @@ function Home() {
                     <Popularjobs />
                     <Nearbyjobs />
                 </View>
-            </ScrollView>
+            </View>
         </SafeAreaView>
      );
 }
